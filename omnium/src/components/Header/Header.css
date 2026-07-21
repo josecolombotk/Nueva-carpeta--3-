@@ -1,0 +1,57 @@
+.header{
+
+    background:white;
+
+    border-bottom:1px solid var(--color-border);
+
+}
+
+.header-content{
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:1.7rem;
+
+    font-weight:700;
+
+    color:var(--color-primary);
+
+}
+
+.search input{
+
+    width:320px;
+
+    padding:12px 16px;
+
+    border:1px solid var(--color-border);
+
+    border-radius:8px;
+
+    outline:none;
+
+    transition:.25s;
+
+}
+
+.search input:focus{
+
+    border-color:var(--color-primary);
+
+}

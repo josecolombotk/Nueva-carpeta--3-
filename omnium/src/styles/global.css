@@ -1,0 +1,14 @@
+@import "./variables.css";
+@import "./reset.css";
+@import "./typography.css";
+
+body{
+    background:#ffffff;
+    color:var(--text-color);
+}
+
+main{
+    max-width:var(--max-width);
+    margin:auto;
+    padding:30px 20px;
+}
